@@ -115,13 +115,4 @@ _이텔릭_
 
 ### 이미지(Image)
 
-![브숏](http://catfriends.co.kr/web/product/big/201907/a77010669e18e94028febeaa54893ecf.jpg)  
-[![춘배](./images/2.png)](https://www.google.com/)
-
-<br>
-
----
-
-### 원시 HTML
-
-<img src='./images/1.png' alt='Afterglow' width='500' height='500'>
+![브숏](http://catfriends.co.kr/web/product/big/201907/a77010669e18e94028febeaa54893ecf.jpg)
