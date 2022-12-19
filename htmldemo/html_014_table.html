@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table {
+        background-color: red;
+        width: 500px;
+      }
+
+      table,
+      th,
+      td {
+        border-width: 1px;
+        border-style: inset;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th rowspan="2">교실</th>
+          <th colspan="2" id="s">수강생</th>
+        </tr>
+        <tr>
+          <th id="m">남</th>
+          <th id="f">여</th>
+        </tr>
+      </thead>
+
+      <tfoot>
+        <tr>
+          <th>합계</th>
+          <td>30</td>
+          <td>7</td>
+        </tr>
+      </tfoot>
+
+      <tbody>
+        <tr>
+          <th id="1">1반</th>
+          <td headers="1 s m">10</td>
+          <td headers="2 s f">5</td>
+        </tr>
+        <tr>
+          <th id="2">2반</th>
+          <td headers="2 m">20</td>
+          <td headers="1 f">2</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
