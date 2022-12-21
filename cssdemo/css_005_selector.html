@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div > span {
+        color: orange;
+      }
+
+      div p span {
+        color: blue;
+      }
+
+      div + p {
+        background-color: red;
+      }
+
+      p[class='one'] {
+        border: 1px solid salmon;
+      }
+
+      img,
+      address {
+        border: 3px solid chartreuse;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>div요소의 <font>자손요소</font></p>
+      <span>div요소의 자식요소</span>
+    </div>
+    <p>다양한 선택자를 지정하는 방법</p>
+    <p class="one">속성에 대한 선택자를 지정</p>
+    <div>
+      <p><span>div요소의 자손요소</span></p>
+    </div>
+
+    <img src="images/2.png" alt="춘배" width="100" height="100" />
+    <address>서울 서초구 서초동</address>
+    <div class="one">box</div>
+  </body>
+</html>
