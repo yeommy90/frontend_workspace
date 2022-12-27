@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let num = 1;
+      console.log(typeof num);
+
+      let nobject = new Number(1);
+      console.log(typeof nobject); // object
+      console.log(nobject instanceof Number); // true
+
+      num = '3';
+      console.log(typeof num); // string
+      console.log(num + 2); // 32
+
+      let check = true;
+      console.log(`check=${typeof check}`); // boolead
+
+      let name = null;
+      console.log(`name=${typeof name}`); // object
+
+      let na = undefined;
+      console.log(`na=${typeof na}`); // undefined
+
+      let loc = new String('node');
+      console.log(`loc=${typeof loc}`); // object
+
+      let fn = function () {
+        console.log('function');
+      };
+      console.log(`fn=${typeof fn}`); // function
+
+      let arr = [1, 2, 3];
+      console.log(`arr=${typeof arr}`); // object
+
+      let customer = { name: '김서영', age: 20 };
+      console.log(`customer=${typeof customer}`); // object
+    </script>
+  </body>
+</html>

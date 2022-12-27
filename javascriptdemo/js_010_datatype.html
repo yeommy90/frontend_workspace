@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let data = 30;
+      let wrap = data;
+      console.log(data == wrap); // true
+
+      let customer = { name: '김서영', age: 20 };
+      let copy = customer;
+      copy.name = '김재준';
+      console.log(copy == customer); // true
+      console.log(copy.name == customer.name); // true
+    </script>
+  </body>
+</html>
